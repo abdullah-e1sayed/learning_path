@@ -10,8 +10,8 @@
 		//rooms
         $rooms= $conn->query("SELECT * from rooms where status = 1 ;");
         $rooms->execute();
-        $allRooms=$rooms->fetchAll(PDO::FETCH_OBJ);
-
+        $allRooms=$rooms->fetchAll(PDO::FETCH_OBJ) ;
+  
 		
 
 ?>
